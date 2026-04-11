@@ -1,0 +1,227 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "user-query",
+      "type": "rectangle",
+      "x": 0,
+      "y": 150,
+      "width": 120,
+      "height": 60,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#dae8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-query",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-query",
+      "type": "text",
+      "x": 10,
+      "y": 170,
+      "width": 100,
+      "height": 20,
+      "strokeColor": "#1e1e1e",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "User Query",
+      "textAlign": "center"
+    },
+    {
+      "id": "router",
+      "type": "diamond",
+      "x": 200,
+      "y": 130,
+      "width": 140,
+      "height": 100,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#fff2cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-router",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-router",
+      "type": "text",
+      "x": 220,
+      "y": 170,
+      "width": 100,
+      "height": 20,
+      "strokeColor": "#d6b656",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Agent Router",
+      "textAlign": "center"
+    },
+    {
+      "id": "vector-db",
+      "type": "ellipse",
+      "x": 450,
+      "y": 50,
+      "width": 120,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e1d5e7",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-db",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-db",
+      "type": "text",
+      "x": 465,
+      "y": 80,
+      "width": 90,
+      "height": 20,
+      "strokeColor": "#9673a6",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Vector DB",
+      "textAlign": "center"
+    },
+    {
+      "id": "web-search",
+      "type": "ellipse",
+      "x": 450,
+      "y": 230,
+      "width": 120,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d5e8d4",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-web",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-web",
+      "type": "text",
+      "x": 465,
+      "y": 260,
+      "width": 90,
+      "height": 20,
+      "strokeColor": "#82b366",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Web Search",
+      "textAlign": "center"
+    },
+    {
+      "id": "llm",
+      "type": "rectangle",
+      "x": 650,
+      "y": 140,
+      "width": 120,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffe6cc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-llm",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-llm",
+      "type": "text",
+      "x": 680,
+      "y": 170,
+      "width": 60,
+      "height": 20,
+      "strokeColor": "#d79b00",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "LLM Gen",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-1",
+      "type": "arrow",
+      "x": 120,
+      "y": 180,
+      "points": [
+        [0, 0],
+        [80, 0]
+      ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "arrow-2",
+      "type": "arrow",
+      "x": 340,
+      "y": 160,
+      "points": [
+        [0, 0],
+        [110, -70]
+      ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "arrow-3",
+      "type": "arrow",
+      "x": 340,
+      "y": 200,
+      "points": [
+        [0, 0],
+        [110, 70]
+      ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "arrow-4",
+      "type": "arrow",
+      "x": 570,
+      "y": 90,
+      "points": [
+        [0, 0],
+        [80, 60]
+      ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "arrow-5",
+      "type": "arrow",
+      "x": 570,
+      "y": 270,
+      "points": [
+        [0, 0],
+        [80, -60]
+      ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    }
+  ]
+}

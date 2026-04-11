@@ -1,0 +1,204 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "agent-brain",
+      "type": "rectangle",
+      "x": 300,
+      "y": 200,
+      "width": 200,
+      "height": 120,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffe6cc",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-brain",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-brain",
+      "type": "text",
+      "x": 325,
+      "y": 250,
+      "width": 150,
+      "height": 20,
+      "strokeColor": "#d79b00",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "LLM (Brain / 核心大脑)",
+      "textAlign": "center"
+    },
+    {
+      "id": "memory",
+      "type": "rectangle",
+      "x": 300,
+      "y": 50,
+      "width": 200,
+      "height": 80,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#e1d5e7",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-memory",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-memory",
+      "type": "text",
+      "x": 310,
+      "y": 80,
+      "width": 180,
+      "height": 20,
+      "strokeColor": "#9673a6",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Memory (记忆)\n- Short-term (Context)\n- Long-term (Vector DB)",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-memory",
+      "type": "arrow",
+      "x": 400,
+      "y": 130,
+      "points": [ [0, 0], [0, 70] ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "planning",
+      "type": "rectangle",
+      "x": 50,
+      "y": 200,
+      "width": 180,
+      "height": 120,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d5e8d4",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-planning",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-planning",
+      "type": "text",
+      "x": 60,
+      "y": 230,
+      "width": 160,
+      "height": 60,
+      "strokeColor": "#82b366",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Planning (规划)\n- Subgoal Decomposition\n- Reflection & Critique",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-planning",
+      "type": "arrow",
+      "x": 230,
+      "y": 260,
+      "points": [ [0, 0], [70, 0] ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1,
+      "startArrowhead": "arrow"
+    },
+    {
+      "id": "tools",
+      "type": "rectangle",
+      "x": 570,
+      "y": 200,
+      "width": 180,
+      "height": 120,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#dae8fc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-tools",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-tools",
+      "type": "text",
+      "x": 580,
+      "y": 230,
+      "width": 160,
+      "height": 60,
+      "strokeColor": "#6c8ebf",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Tools / Action (执行)\n- APIs & Web Search\n- Code Interpreter",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-tools",
+      "type": "arrow",
+      "x": 500,
+      "y": 260,
+      "points": [ [0, 0], [70, 0] ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    },
+    {
+      "id": "environment",
+      "type": "ellipse",
+      "x": 600,
+      "y": 400,
+      "width": 120,
+      "height": 60,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#f8cecc",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "roughness": 0,
+      "boundElements": [
+        {
+          "id": "text-env",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "text-env",
+      "type": "text",
+      "x": 615,
+      "y": 420,
+      "width": 90,
+      "height": 20,
+      "strokeColor": "#b85450",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "text": "Environment",
+      "textAlign": "center"
+    },
+    {
+      "id": "arrow-env",
+      "type": "arrow",
+      "x": 660,
+      "y": 320,
+      "points": [ [0, 0], [0, 80] ],
+      "strokeColor": "#1e1e1e",
+      "strokeWidth": 1
+    }
+  ]
+}
